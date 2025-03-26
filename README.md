@@ -73,12 +73,6 @@ This will:
 
 	•	 Softmax output layer for multi-class classification
 
-    •    Loss: categorical_crossentropy
-
-    •    Optimizer: Adam
-
-    •    Metrics: accuracy
-
 ## Evaluation:
 
 After training, the model will:
