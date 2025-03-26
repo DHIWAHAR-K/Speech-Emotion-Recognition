@@ -63,21 +63,21 @@ This will:
 
 ## Model Architecture:
 
-	•	Three convolutional blocks with:
+	•	 Three convolutional blocks with:
 
-	•	Conv1D → BatchNorm → MaxPooling1D → Dropout
+	•	 Conv1D → BatchNorm → MaxPooling1D → Dropout
 
-	•	GlobalAveragePooling1D
+	•	 GlobalAveragePooling1D
 
-	•	Dense layer (128 units) + Dropout
+	•	 Dense layer (128 units) + Dropout
 
-	•	Softmax output layer for multi-class classification
+	•	 Softmax output layer for multi-class classification
 
-    •   Loss: categorical_crossentropy
+    •    Loss: categorical_crossentropy
 
-    •   Optimizer: Adam
+    •    Optimizer: Adam
 
-    •   Metrics: accuracy
+    •    Metrics: accuracy
 
 ## Evaluation:
 
